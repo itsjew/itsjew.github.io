@@ -22,6 +22,10 @@ body {
     font-family: monospace
 }
 
+.text-container {
+    height: 64vh;
+}
+
 .music-container {
     background-color: #fff;
     border-radius: 15px;
