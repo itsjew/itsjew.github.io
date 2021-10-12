@@ -19,11 +19,119 @@ body {
     place-items: center;
     height: 100vh;
     margin: 0;
-    font-family: monospace
+    font-family: monospace;
 }
 
 .text-container {
     height: 64vh;
+    font-family: monospace;
+    font-size: x-large;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.text-container div {
+    width: fit-content;
+}
+
+.text-container p {
+    padding: 4px;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#line-1 {
+    margin-top: 20px;
+    animation: typing 4s steps(37,end) forwards,
+    blink 1s 4;
+    animation-delay: 0s;
+}
+
+#line-2 {
+    animation: typing 4s steps(41,end) forwards,
+    blink 1s 4;
+    animation-delay: 4s;
+}
+
+#line-3 {
+    animation: typing 4s steps(53,end) forwards,
+    blink 1s 4;
+    animation-delay: 8s;
+}
+
+#line-4 {
+    animation: typing 4s steps(32,end) forwards,
+    blink 1s 4;
+    animation-delay: 12s;
+}
+
+#line-5 {
+    animation: typing 4s steps(33,end) forwards,
+    blink 1s 4;
+    animation-delay: 16s;
+}
+
+#line-6 {
+    animation: typing 4s steps(47,end) forwards,
+    blink 1s 4;
+    animation-delay: 20s;
+}
+
+#line-7 {
+    animation: typing 4s steps(53,end) forwards,
+    blink 1s 4;
+    animation-delay: 24s;
+}
+
+#line-8 {
+    animation: typing 4s steps(41,end) forwards,
+    blink 1s 4;
+    animation-delay: 28s;
+}
+
+#line-9 {
+    animation: typing 4s steps(41,end) forwards,
+    blink 1s 4;
+    animation-delay: 32s;
+}
+
+#line-10 {
+    animation: typing 4s steps(44,end) forwards,
+    blink 1s 4;
+    animation-delay: 36s;
+}
+
+#line-11 {
+    animation: typing 4s steps(28,end) forwards,
+    blink 1s infinite;
+    animation-delay: 40s;
+}
+
+
+@keyframes typing {
+    0% { 
+        width:0% ;
+        visibility:visible;
+    }
+    100% { 
+        width:100%;
+        visibility:visible;
+    }
+}
+
+@keyframes blink {
+    0%,100% {
+      border-right: 2px solid var(--lilac);
+    }
+    50% {
+      border-right: 2px solid var(--turquoise);
+    }
 }
 
 .music-container {
@@ -195,5 +303,9 @@ body {
 
     .progress {
         border-radius: 5px;
+    }
+
+    .text-container {
+        font-size: medium;
     }
 }
