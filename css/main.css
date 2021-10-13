@@ -58,69 +58,69 @@ body {
 
 #line-1 {
     margin-top: 20px;
-    animation: typing 4s steps(37,end) forwards,
-    blink 1s 4;
+    animation: typing 2s steps(37,end) forwards,
+    blink 1s 2;
     animation-delay: 0s;
 }
 
 #line-2 {
-    animation: typing 4s steps(41,end) forwards,
-    blink 1s 4;
-    animation-delay: 4s;
+    animation: typing 2s steps(41,end) forwards,
+    blink 1s 2;
+    animation-delay: 2s;
 }
 
 #line-3 {
-    animation: typing 5s steps(53,end) forwards,
-    blink 1s 5;
-    animation-delay: 8s;
+    animation: typing 3s steps(53,end) forwards,
+    blink 1s 3;
+    animation-delay: 4s;
 }
 
 #line-4 {
-    animation: typing 3s steps(32,end) forwards,
-    blink 1s 3;
-    animation-delay: 13s;
+    animation: typing 2s steps(32,end) forwards,
+    blink 1s 2;
+    animation-delay: 7s;
 }
 
 #line-5 {
-    animation: typing 3s steps(33,end) forwards,
-    blink 1s 3;
-    animation-delay: 16s;
+    animation: typing 2s steps(33,end) forwards,
+    blink 1s 2;
+    animation-delay: 9s;
 }
 
 #line-6 {
-    animation: typing 5s steps(47,end) forwards,
-    blink 1s 5;
-    animation-delay: 19s;
+    animation: typing 3s steps(47,end) forwards,
+    blink 1s 3;
+    animation-delay: 11s;
 }
 
 #line-7 {
-    animation: typing 5s steps(53,end) forwards,
-    blink 1s 5;
-    animation-delay: 24s;
+    animation: typing 3s steps(53,end) forwards,
+    blink 1s 3;
+    animation-delay: 14s;
 }
 
 #line-8 {
-    animation: typing 4s steps(41,end) forwards,
-    blink 1s 4;
-    animation-delay: 29s;
+    animation: typing 2s steps(41,end) forwards,
+    blink 1s 2;
+    animation-delay: 17s;
 }
 
 #line-9 {
-    animation: typing 4s steps(41,end) forwards,
-    blink 1s 4;
-    animation-delay: 33s;
+    animation: typing 2s steps(41,end) forwards,
+    blink 1s 2;
+    animation-delay: 19s;
 }
 
 #line-10 {
-    animation: typing 4s steps(44,end) forwards,
-    blink 1s 4;
-    animation-delay: 37s;
+    animation: typing 2s steps(44,end) forwards,
+    blink 1s 2;
+    animation-delay: 21s;
 }
 
 #line-11 {
-    animation: typing 3s steps(28,end) forwards,
+    animation: typing 2s steps(28,end) forwards,
     blink 1s infinite;
-    animation-delay: 41s;
+    animation-delay: 23s;
 }
 
 
@@ -284,7 +284,7 @@ body {
     height: 8%;
     left: 10%;
     top: 18%;
-    animation-delay: 16s;
+    animation-delay: 9s;
 }
 
 #image-3 {
@@ -292,7 +292,7 @@ body {
     height: 20%;
     left: 10%;
     top: 14%;
-    animation-delay: 8s;
+    animation-delay: 4s;
 }
 
 .right-container {
@@ -305,7 +305,7 @@ body {
     width: 16%;
     height: 8%;
     top: 2%;
-    animation-delay: 19s;
+    animation-delay: 11s;
 }
 
 #image-5 {
@@ -313,21 +313,21 @@ body {
     height: 20%;
     left: 14%;
     top: 18%;
-    animation-delay: 29s;
+    animation-delay: 17s;
 }
 
 #image-6 {
     width: 60%;
     height: 30%;
     top: 26%;
-    animation-delay: 37s;
+    animation-delay: 21s;
 }
 
 .img {
     border: 4px solid white;
     position: relative;
     opacity: 0;
-    animation: fadeIn 4s forwards;
+    animation: fadeIn 2s forwards;
 }
 
 @keyframes fadeIn {
