@@ -12,10 +12,10 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['Its your birthday...'];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
@@ -24,7 +24,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `/asset/music/${song}.mp3`;
-  cover.src = `/asset/image/${song}.jpg`;
+  cover.src = `/asset/image/${song}.jpeg`;
 }
 
 // Play song
@@ -47,11 +47,11 @@ function pauseSong() {
 
 // Previous song
 function prevSong() {
-  songIndex--;
+//   songIndex--;
 
-  if (songIndex < 0) {
-    songIndex = songs.length - 1;
-  }
+//   if (songIndex < 0) {
+//     songIndex = songs.length - 1;
+//   }
 
   loadSong(songs[songIndex]);
 
@@ -60,11 +60,11 @@ function prevSong() {
 
 // Next song
 function nextSong() {
-  songIndex++;
+//   songIndex++;
 
-  if (songIndex > songs.length - 1) {
-    songIndex = 0;
-  }
+//   if (songIndex > songs.length - 1) {
+//     songIndex = 0;
+//   }
 
   loadSong(songs[songIndex]);
 
