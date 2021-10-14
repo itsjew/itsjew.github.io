@@ -54,6 +54,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     visibility: hidden;
+    border-right: 2px solid var(--lilac);
 }
 
 #line-1 {
