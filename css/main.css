@@ -174,9 +174,6 @@ body {
     height: 20px;
     transform: translate(-50%, 50%);
     -webkit-transform: translate(-50%, 50%);
-    -moz-transform: translate(-50%, 50%);
-    -ms-transform: translate(-50%, 50%);
-    -o-transform: translate(-50%, 50%);
 }
   
 .img-container img {
@@ -198,10 +195,12 @@ body {
 @keyframes rotate {
     from {
       transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
     }
   
     to {
       transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
     }
 }
   
@@ -242,14 +241,8 @@ body {
     opacity: 0;
     transform: translateY(0%);
     -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     -webkit-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-    -moz-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-    -ms-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-    -o-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     z-index: 0;
     font-size: medium;
 }
@@ -258,9 +251,6 @@ body {
     opacity: 1;
     transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
 }
   
 .music-info h4 {
@@ -283,9 +273,6 @@ body {
     width: 0%;
     transition: width 0.1s linear;
     -webkit-transition: width 0.1s linear;
-    -moz-transition: width 0.1s linear;
-    -ms-transition: width 0.1s linear;
-    -o-transition: width 0.1s linear;
 }
 
 .left-container {
