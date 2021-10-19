@@ -173,7 +173,6 @@ body {
     width: 20px;
     height: 20px;
     transform: translate(-50%, 50%);
-    -webkit-transform: translate(-50%, 50%);
 }
   
 .img-container img {
@@ -195,12 +194,10 @@ body {
 @keyframes rotate {
     from {
       transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
     }
   
     to {
       transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
     }
 }
   
@@ -240,9 +237,7 @@ body {
     padding: 10px 10px 10px 150px;
     opacity: 0;
     transform: translateY(0%);
-    -webkit-transform: translateY(0%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-    -webkit-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     z-index: 0;
     font-size: medium;
 }
@@ -250,7 +245,6 @@ body {
 .music-container.play .music-info {
     opacity: 1;
     transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
 }
   
 .music-info h4 {
@@ -272,7 +266,6 @@ body {
     height: 100%;
     width: 0%;
     transition: width 0.1s linear;
-    -webkit-transition: width 0.1s linear;
 }
 
 .left-container {
