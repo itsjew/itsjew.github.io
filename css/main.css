@@ -266,6 +266,7 @@ body {
     height: 100%;
     width: 0%;
     transition: width 0.1s linear;
+    -webkit-transition: width 0.1s linear;
 }
 
 .left-container {
