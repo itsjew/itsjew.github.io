@@ -245,6 +245,10 @@ body {
 .music-container.play .music-info {
     opacity: 1;
     transform: translateY(-100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
 }
   
 .music-info h4 {
