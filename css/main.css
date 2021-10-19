@@ -424,4 +424,27 @@ body {
     .img {
        display: none;
     }
+
+    .img-container::after {
+        -webkit-transform: translate(-50%, 50%);
+    }
+      
+    @keyframes rotate {
+        from {
+          -webkit-transform: rotate(0deg);
+        }
+      
+        to {
+          -webkit-transform: rotate(360deg);
+        }
+    }
+
+    .music-info {
+        -webkit-transform: translateY(0%);
+        -webkit-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    }
+      
+    .music-container.play .music-info {
+        -webkit-transform: translateY(-100%);
+    }
 }
