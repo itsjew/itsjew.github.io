@@ -149,7 +149,18 @@ body {
         margin-top: 15px;
     }
 
-    .wrapper:hover .letter {
+    .wrapper:hover, .wrapper:active .lid.one {
+        transform: rotateX(90deg);
+        transition-delay: 0s;
+    }
+    
+    .wrapper:hover, .wrapper:active .lid.two {
+        transform: rotateX(180deg);
+        transition-delay: 0.25s;
+    }
+    
+    .wrapper:hover, .wrapper:active .letter {
         transform: translateY(-25px);
+        transition-delay: 0.5s;
     }  
 }
