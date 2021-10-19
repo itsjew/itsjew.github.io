@@ -151,5 +151,6 @@ body {
     
     .wrapper:hover .letter {
         transform: translateY(-25px);
+        -webkit-transform: translateY(-25px);
     }   
 }
