@@ -54,6 +54,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     visibility: hidden;
+    text-shadow: 2px 2px var(--bluegreen);
     border-right: 2px solid var(--lilac);
 }
 
@@ -318,8 +319,8 @@ body {
 }
 
 #image-6 {
-    width: 60%;
-    height: 30%;
+    width: 70%;
+    height: 35%;
     top: 26%;
     animation-delay: 21s;
 }
