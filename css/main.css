@@ -426,25 +426,43 @@ body {
     }
 
     .img-container::after {
+        transform: translate(-50%, 50%);
         -webkit-transform: translate(-50%, 50%);
     }
       
     @keyframes rotate {
         from {
+          transform: rotate(0deg);
           -webkit-transform: rotate(0deg);
         }
       
         to {
+          transform: rotate(360deg);
           -webkit-transform: rotate(360deg);
         }
     }
 
     .music-info {
+        transform: translateY(0%);
+        transition: transform 0.3s ease-in, opacity 0.3s ease-in;
         -webkit-transform: translateY(0%);
         -webkit-transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     }
       
     .music-container.play .music-info {
+        transform: translateY(-100%);
         -webkit-transform: translateY(-100%);
+    }
+
+    .img-container img {
+        animation: rotate 3s linear infinite; 
+        animation-play-state: paused;
+        -webkit-animation: rotate 3s linear infinite; 
+        -webkit-animation-play-state: paused;
+    }
+      
+    .music-container.play .img-container img {
+        animation-play-state: running;
+        -webkit-animation-play-state: running;
     }
 }
